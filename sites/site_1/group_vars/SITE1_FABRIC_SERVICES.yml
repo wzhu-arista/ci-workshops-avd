@@ -58,4 +58,16 @@ tenants:
               - node: s1-spine1
                 ip_address: 10.23.20.2/24
               - node: s1-spine2
+          - id: 26
+            name: 'TwentySix'
+            tags: [ "App" ]
+            enabled: true
+            ip_virtual_router_addresses:
+              - 10.26.20.1
+            nodes:
+              - node: s1-spine1
+                ip_address: 10.26.20.2/24
+              - node: s1-spine2
+                ip_address: 10.26.20.3/24
+
                 ip_address: 10.23.20.3/24
